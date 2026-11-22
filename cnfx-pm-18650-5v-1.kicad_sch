@@ -2595,7 +2595,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DFN_QFN:Texas_VQFN-RHL-20_ThermalVias"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3823,6 +3823,12 @@
 		(uuid "999ff8c9-0d58-4cee-a446-79e4733122c5")
 	)
 	(junction
+		(at 260.35 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a537cfc4-ca17-4537-bee6-8cad9e75b41f")
+	)
+	(junction
 		(at 160.02 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4179,6 +4185,16 @@
 			(type default)
 		)
 		(uuid "29ec9f79-8b7a-4c76-af3a-5a54e0c6a96c")
+	)
+	(wire
+		(pts
+			(xy 260.35 57.15) (xy 260.35 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1f50ea-e967-4366-b9ff-7d0474f869a9")
 	)
 	(wire
 		(pts
@@ -7220,7 +7236,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 196.85 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10533,7 +10549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:Texas_VQFN-RHL-20_ThermalVias"
 			(at 209.55 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12338,6 +12354,86 @@
 			(project "cnfx-pm-18650-5v-1"
 				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 58.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c60d61-35bf-433b-953a-bb40e27ff437")
+		(property "Reference" "#PWR023"
+			(at 260.35 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f684937-80ef-4ce4-bd05-edf0b5260fc0")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
