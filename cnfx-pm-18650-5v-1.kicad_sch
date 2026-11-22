@@ -5651,7 +5651,7 @@
 		(uuid "02c7198d-d12a-49eb-bb6d-f8a39f6dd1cf")
 	)
 	(rectangle
-		(start 208.28 97.79)
+		(start 204.47 97.79)
 		(end 262.89 146.05)
 		(stroke
 			(width 0)
@@ -5902,6 +5902,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ec54ecb-3a03-404c-b19a-d5e66077056d")
+	)
+	(junction
+		(at 215.9 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14403091-f053-4247-8ee3-5c663faae67f")
 	)
 	(junction
 		(at 161.29 44.45)
@@ -6210,6 +6216,12 @@
 		(uuid "aeba8fdf-b7ef-4159-af10-c28db0247129")
 	)
 	(junction
+		(at 213.36 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b048fb18-67b7-4d82-9607-9f1bfe6e0dc9")
+	)
+	(junction
 		(at 30.48 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6244,6 +6256,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca117e80-d531-43c7-927d-6b3a87c9057d")
+	)
+	(junction
+		(at 215.9 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cef2ee74-d2c5-460a-bd71-b5d18c8d5375")
 	)
 	(junction
 		(at 119.38 100.33)
@@ -6292,6 +6310,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebe59788-e678-4979-9542-405b069751b9")
+	)
+	(junction
+		(at 213.36 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0325136-1b56-447a-b579-d99037b42e09")
 	)
 	(junction
 		(at 91.44 34.29)
@@ -6713,6 +6737,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 130.81) (xy 213.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214f09d5-4378-41ce-b5c1-14eedefb7d8d")
+	)
+	(wire
+		(pts
 			(xy 127 34.29) (xy 134.62 34.29)
 		)
 		(stroke
@@ -6760,6 +6794,16 @@
 			(type default)
 		)
 		(uuid "2421dd9e-f9a7-452b-b26a-239ee17f7a8a")
+	)
+	(wire
+		(pts
+			(xy 213.36 132.08) (xy 215.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2449be24-b03e-4401-bd0f-d07523b5350d")
 	)
 	(wire
 		(pts
@@ -6930,6 +6974,16 @@
 			(type default)
 		)
 		(uuid "33a7e340-6f31-4f15-8910-1d6c63e57142")
+	)
+	(wire
+		(pts
+			(xy 213.36 121.92) (xy 215.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a943cf-9bf0-4b61-b9b4-3869802ed608")
 	)
 	(wire
 		(pts
@@ -7240,6 +7294,16 @@
 			(type default)
 		)
 		(uuid "4fbda436-e660-43f3-ab0b-3bf4b721f4ec")
+	)
+	(wire
+		(pts
+			(xy 210.82 121.92) (xy 213.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fca5b5e-d0b8-4019-9395-4e0f8b9b2242")
 	)
 	(wire
 		(pts
@@ -7963,6 +8027,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 132.08) (xy 213.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b60d20-d230-44ae-819d-47c6a8aad22e")
+	)
+	(wire
+		(pts
 			(xy 25.4 170.18) (xy 31.75 170.18)
 		)
 		(stroke
@@ -8163,6 +8237,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 121.92) (xy 218.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9727102e-98d8-42c3-97a8-15ebf84e30a4")
+	)
+	(wire
+		(pts
 			(xy 266.7 31.75) (xy 266.7 33.02)
 		)
 		(stroke
@@ -8240,6 +8324,16 @@
 			(type default)
 		)
 		(uuid "9d123701-aa00-4bb2-8e13-c32cca37aeb7")
+	)
+	(wire
+		(pts
+			(xy 218.44 111.76) (xy 218.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed52623-2be0-4507-bffb-96e2e38242fa")
 	)
 	(wire
 		(pts
@@ -8510,6 +8604,16 @@
 			(type default)
 		)
 		(uuid "b418d2a2-ddaa-404f-9944-afdfd4dbc6d2")
+	)
+	(wire
+		(pts
+			(xy 213.36 121.92) (xy 213.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42dd344-3cb0-4410-b46b-6a45150b5984")
 	)
 	(wire
 		(pts
@@ -8893,6 +8997,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 121.92) (xy 215.9 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66475d2-6cc5-40a9-b113-6511e2b8b175")
+	)
+	(wire
+		(pts
 			(xy 86.36 38.1) (xy 86.36 41.91)
 		)
 		(stroke
@@ -9003,6 +9117,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 130.81) (xy 215.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c80d89-16b4-4388-977f-6b3035230e11")
+	)
+	(wire
+		(pts
 			(xy 77.47 34.29) (xy 77.47 35.56)
 		)
 		(stroke
@@ -9050,6 +9174,16 @@
 			(type default)
 		)
 		(uuid "e6127934-a3c4-4a1a-8f15-247a83939c0d")
+	)
+	(wire
+		(pts
+			(xy 215.9 132.08) (xy 218.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7262920-490d-444d-9e8a-8f984012fe0d")
 	)
 	(wire
 		(pts
@@ -13896,7 +14030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M2"
+		(property "Value" "510k"
 			(at 216.662 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13907,7 +14041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.218 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -13940,7 +14074,7 @@
 				)
 			)
 		)
-		(property "Basic" "E"
+		(property "Basic" "Y"
 			(at 218.44 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13951,7 +14085,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C22107"
+		(property "JLCPCB Part #" "C23192"
 			(at 218.44 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13973,7 +14107,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "1206W4F1204T5E"
+		(property "Manufacturer Part Number" "0603WAF5103T5E"
 			(at 218.44 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16685,6 +16819,132 @@
 			(project "cnfx-pm-18650-5v-1"
 				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 127 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b84d878-ec6d-457c-840e-f0a4062f5b37")
+		(property "Reference" "R26"
+			(at 213.36 128.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330k"
+			(at 211.074 127.254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.138 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 213.36 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C23137"
+			(at 213.36 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 213.36 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF3303T5E"
+			(at 213.36 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d8b606a-a133-4108-810b-5f67df6c7dc7")
+		)
+		(pin "2"
+			(uuid "bcdd44cd-60b5-4a44-8143-9368565b18a6")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -20008,8 +20268,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 218.44 105.41 0)
+		(lib_id "Device:R")
+		(at 215.9 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20018,9 +20278,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a10dc531-215f-4640-bd16-5433e3366a1b")
-		(property "Reference" "#PWR064"
-			(at 218.44 109.22 0)
+		(uuid "a0c0240c-4747-4706-a984-811d043359f0")
+		(property "Reference" "R16"
+			(at 215.9 128.778 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330k"
+			(at 202.184 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20028,20 +20299,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 214.122 104.394 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 105.41 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 217.678 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20052,7 +20314,132 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 105.41 0)
+			(at 215.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 215.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C23137"
+			(at 215.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 215.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF3303T5E"
+			(at 215.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ad89e2e-78aa-4ec6-8a61-9ce831e4fa10")
+		)
+		(pin "2"
+			(uuid "9fbf11ec-be55-4dc9-a36a-348492219ca0")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 218.44 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a10dc531-215f-4640-bd16-5433e3366a1b")
+		(property "Reference" "#PWR064"
+			(at 218.44 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 214.122 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20063,7 +20450,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 218.44 105.41 0)
+			(at 218.44 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20222,7 +20609,7 @@
 		(dnp no)
 		(uuid "a260daf4-454d-407a-beea-c9e34f01750a")
 		(property "Reference" "R14"
-			(at 216.662 125.73 0)
+			(at 218.44 128.778 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20233,7 +20620,8 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 216.662 128.27 0)
+			(at 204.724 128.27 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20858,132 +21246,6 @@
 			(project "cnfx-pm-18650-5v-1"
 				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 218.44 109.22 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b2ae6a5c-aa4d-4a04-ba4e-3715c66fd045")
-		(property "Reference" "R16"
-			(at 216.662 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10M"
-			(at 216.662 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 220.218 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 218.44 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 218.44 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C7250"
-			(at 218.44 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Uniroyal Elec"
-			(at 218.44 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "0603WAF1005T5E"
-			(at 218.44 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f9c4fa1-bde0-44a6-abc2-0a041d615512")
-		)
-		(pin "2"
-			(uuid "3eacc400-5ec0-4ae3-9e75-7c7213128da9")
-		)
-		(instances
-			(project "cnfx-pm-18650-5v-1"
-				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -21811,7 +22073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "4M7"
 			(at 216.662 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21822,7 +22084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.218 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -21855,7 +22117,7 @@
 				)
 			)
 		)
-		(property "Basic" "Y"
+		(property "Basic" "E"
 			(at 218.44 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -21866,7 +22128,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C26083"
+		(property "JLCPCB Part #" "C23163"
 			(at 218.44 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -21888,7 +22150,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF1004TCE"
+		(property "Manufacturer Part Number" "0603WAF4704T5E"
 			(at 218.44 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -24052,7 +24314,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 218.44 121.92 90)
+		(at 210.82 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24062,7 +24324,7 @@
 		(dnp no)
 		(uuid "ee659bfd-efcd-4a82-98c9-1e0a0f48ad00")
 		(property "Reference" "TP10"
-			(at 214.122 121.92 90)
+			(at 210.566 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24073,7 +24335,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 216.4079 119.38 0)
+			(at 208.7879 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24085,7 +24347,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 218.44 116.84 0)
+			(at 210.82 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24096,7 +24358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 116.84 0)
+			(at 210.82 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24107,7 +24369,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 218.44 121.92 0)
+			(at 210.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24131,7 +24393,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 218.44 132.08 90)
+		(at 212.09 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24141,7 +24403,7 @@
 		(dnp no)
 		(uuid "ef3ab92b-e318-4a61-bc75-736ddfc64f56")
 		(property "Reference" "TP11"
-			(at 214.122 132.08 90)
+			(at 211.328 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24152,7 +24414,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 216.4079 129.54 0)
+			(at 210.0579 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24164,7 +24426,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 218.44 127 0)
+			(at 212.09 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24175,7 +24437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 127 0)
+			(at 212.09 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24186,7 +24448,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 218.44 132.08 0)
+			(at 212.09 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
