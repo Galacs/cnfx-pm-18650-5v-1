@@ -1226,8 +1226,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "BT1"
+				(at 0.762 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1238,9 +1238,10 @@
 				)
 			)
 			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+				(at 3.81 0.5716 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1248,7 +1249,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "GLCS:BatteryHolder_MYOUNG_BH-18650-B1BA002"
 				(at 0 1.524 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1365,7 +1366,7 @@
 				)
 			)
 			(symbol "Battery_Cell_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "+"
@@ -1383,7 +1384,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "-"
