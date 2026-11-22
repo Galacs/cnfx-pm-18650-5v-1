@@ -4914,7 +4914,7 @@
 	)
 	(text "TPS3701 Comparator"
 		(exclude_from_sim no)
-		(at 226.568 103.124 0)
+		(at 226.568 101.346 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -5717,16 +5717,6 @@
 			(type default)
 		)
 		(uuid "2622d300-95c2-411e-908e-432e69d5833a")
-	)
-	(wire
-		(pts
-			(xy 218.44 111.76) (xy 218.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2926751b-d853-4324-b2d2-3c798be53f83")
 	)
 	(wire
 		(pts
@@ -12099,7 +12089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "1M2"
 			(at 216.662 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17340,7 +17330,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 218.44 111.76 0)
+		(at 218.44 105.41 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17351,7 +17341,7 @@
 		(dnp no)
 		(uuid "a10dc531-215f-4640-bd16-5433e3366a1b")
 		(property "Reference" "#PWR064"
-			(at 218.44 115.57 0)
+			(at 218.44 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17362,7 +17352,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 214.122 110.744 0)
+			(at 214.122 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17372,7 +17362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 111.76 0)
+			(at 218.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17383,7 +17373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 111.76 0)
+			(at 218.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17394,7 +17384,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 218.44 111.76 0)
+			(at 218.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17563,7 +17553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "330k"
 			(at 216.662 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18065,6 +18055,88 @@
 			(project "cnfx-pm-18650-5v-1"
 				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 109.22 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2ae6a5c-aa4d-4a04-ba4e-3715c66fd045")
+		(property "Reference" "R16"
+			(at 216.662 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10M"
+			(at 216.662 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 220.218 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f9c4fa1-bde0-44a6-abc2-0a041d615512")
+		)
+		(pin "2"
+			(uuid "3eacc400-5ec0-4ae3-9e75-7c7213128da9")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -18932,7 +19004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "1M"
 			(at 216.662 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
