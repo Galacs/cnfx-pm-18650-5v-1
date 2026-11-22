@@ -5650,7 +5650,7 @@
 		(uuid "02c7198d-d12a-49eb-bb6d-f8a39f6dd1cf")
 	)
 	(rectangle
-		(start 209.55 97.79)
+		(start 208.28 97.79)
 		(end 262.89 146.05)
 		(stroke
 			(width 0)
@@ -5843,6 +5843,12 @@
 		(uuid "f3e23c8e-5665-4f45-bfcd-2e8fc0585a99")
 	)
 	(junction
+		(at 125.73 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "040c9fce-3033-4d95-bd80-6e7ba5442cd7")
+	)
+	(junction
 		(at 156.21 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5915,6 +5921,18 @@
 		(uuid "1a096d9e-df3d-4d82-a98c-9d42909d7f77")
 	)
 	(junction
+		(at 229.87 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d10b6e5-b3f2-4ed1-b45b-a12d219060dc")
+	)
+	(junction
+		(at 69.85 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d17942b-1716-4f01-98aa-588fea1afe3a")
+	)
+	(junction
 		(at 134.62 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5931,6 +5949,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "204986c2-bb58-4f25-81f1-a115118c1209")
+	)
+	(junction
+		(at 81.28 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25462a69-d744-4aba-9158-99e5e0a16535")
 	)
 	(junction
 		(at 256.54 31.75)
@@ -5979,6 +6003,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48f9a6e9-03c3-49d0-9600-d9f4c232d20d")
+	)
+	(junction
+		(at 148.59 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "496149dd-d981-4696-8181-6f7ee2cd8496")
 	)
 	(junction
 		(at 166.37 34.29)
@@ -6149,12 +6179,6 @@
 		(uuid "9ba41105-4cd2-4e52-aa43-e650f4ffe01d")
 	)
 	(junction
-		(at 87.63 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f4f62af-8d75-4cfa-9290-8fd35ec855e3")
-	)
-	(junction
 		(at 266.7 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6239,10 +6263,10 @@
 		(uuid "de5f7864-1a89-4f53-bada-6cb4ef56ab15")
 	)
 	(junction
-		(at 123.19 100.33)
+		(at 229.87 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e07ef520-9673-47ea-b8c1-f4ee2df91f67")
+		(uuid "e1db62ef-f275-4b8b-bcc7-16052c60656d")
 	)
 	(junction
 		(at 105.41 34.29)
@@ -6261,6 +6285,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebe59788-e678-4979-9542-405b069751b9")
+	)
+	(junction
+		(at 91.44 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f169cc13-ec00-48ee-96e8-13e50470cf69")
 	)
 	(junction
 		(at 50.8 60.96)
@@ -6452,6 +6482,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 166.37) (xy 69.85 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bf89b9-59f5-45cf-81c8-2c0863dcfd05")
+	)
+	(wire
+		(pts
 			(xy 81.28 100.33) (xy 81.28 106.68)
 		)
 		(stroke
@@ -6569,6 +6609,16 @@
 			(type default)
 		)
 		(uuid "1a0b50b8-4dc0-49de-b58f-b0959b691c85")
+	)
+	(wire
+		(pts
+			(xy 81.28 162.56) (xy 81.28 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6798e2-df3a-41be-ae37-e6d0a3fe6af8")
 	)
 	(wire
 		(pts
@@ -6812,6 +6862,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 34.29) (xy 105.41 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c56e09b-9bea-467b-948d-bd5ae2dd3502")
+	)
+	(wire
+		(pts
 			(xy 41.91 113.03) (xy 41.91 115.57)
 		)
 		(stroke
@@ -6952,7 +7012,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 100.33) (xy 88.9 100.33)
+			(xy 81.28 100.33) (xy 88.9 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7012,23 +7072,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 31.75) (xy 234.95 31.75)
+			(xy 226.06 31.75) (xy 229.87 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "418a155f-0885-4959-9868-d12d01b83012")
-	)
-	(wire
-		(pts
-			(xy 119.38 100.33) (xy 123.19 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42f7a071-cb69-405c-99da-8cce1853eff9")
 	)
 	(wire
 		(pts
@@ -7269,6 +7319,16 @@
 			(type default)
 		)
 		(uuid "5843cd00-e0ad-40ce-a8f7-fed24b3bdb77")
+	)
+	(wire
+		(pts
+			(xy 229.87 31.75) (xy 234.95 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c59225-3eeb-4431-9931-6d93097f4998")
 	)
 	(wire
 		(pts
@@ -7942,7 +8002,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 160.02) (xy 81.28 168.91)
+			(xy 81.28 160.02) (xy 81.28 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8042,7 +8102,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 34.29) (xy 105.41 34.29)
+			(xy 77.47 34.29) (xy 91.44 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8382,7 +8442,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 100.33) (xy 132.08 100.33)
+			(xy 119.38 100.33) (xy 125.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8419,6 +8479,16 @@
 			(type default)
 		)
 		(uuid "b141e287-4da6-46e7-9a05-7f1ac04ea349")
+	)
+	(wire
+		(pts
+			(xy 125.73 100.33) (xy 132.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b155b5dc-cc9c-4676-8b7b-12cb6b285286")
 	)
 	(wire
 		(pts
@@ -9002,7 +9072,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 165.1) (xy 69.85 168.91)
+			(xy 69.85 165.1) (xy 69.85 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9089,16 +9159,6 @@
 			(type default)
 		)
 		(uuid "f5030d86-b8a6-48b1-bd1a-38539e32947f")
-	)
-	(wire
-		(pts
-			(xy 81.28 100.33) (xy 87.63 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59be557-3298-4f1d-910a-597cf52ee5b2")
 	)
 	(wire
 		(pts
@@ -10482,6 +10542,84 @@
 			(project "cnfx-pm-18650-5v-1"
 				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "127f55e5-d7dd-40a1-91e9-07d13ef33c40")
+		(property "Reference" "TP4"
+			(at 74.422 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 79.2479 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 81.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "146cc4a5-9ff3-4a1e-bf9e-25362cb312cd")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -12673,17 +12811,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 87.63 100.33 0)
+		(at 125.73 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "362f87f0-103f-4025-bd50-ecdb7e8aff91")
+		(uuid "348e19fb-d213-4738-8e16-717da36e4cf9")
 		(property "Reference" "TP5"
-			(at 85.852 94.996 0)
+			(at 123.444 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12694,7 +12832,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 90.17 98.2979 0)
+			(at 128.27 98.2979 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12705,8 +12843,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GLCS:TestPoint_Keystone_5015_Micro_Mini"
-			(at 92.71 100.33 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 130.81 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12717,7 +12855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 100.33 0)
+			(at 130.81 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12728,51 +12866,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 87.63 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "X"
-			(at 87.63 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C2906768"
-			(at 87.63 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 87.63 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "5015"
-			(at 87.63 100.33 0)
+			(at 125.73 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12783,7 +12877,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e1bcb95-d3c3-4d2e-8a03-abfb3ca1b47a")
+			(uuid "be1c7492-37d7-4277-bd7c-05ecf32f2797")
 		)
 		(instances
 			(project "cnfx-pm-18650-5v-1"
@@ -16945,6 +17039,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 229.87 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a74a3eb-7ede-416f-b81d-12f1362e61ee")
+		(property "Reference" "TP12"
+			(at 228.6 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 227.33 49.0221 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 224.79 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43a993cf-7761-4eda-902d-d56d07717598")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 55.88 33.02 0)
 		(mirror y)
@@ -17349,6 +17522,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 166.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76d7fee9-5594-4eab-9d3e-0146b84f9440")
+		(property "Reference" "TP3"
+			(at 76.708 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 71.8821 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 69.85 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b14c41e-6188-45fb-a680-12f67acba4f3")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 176.53 123.19 0)
 		(unit 1)
@@ -17587,6 +17838,85 @@
 			(project "cnfx-pm-18650-5v-1"
 				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 91.44 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d21444b-8854-4bed-b4df-1779ee22c82d")
+		(property "Reference" "TP9"
+			(at 89.154 28.448 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 93.98 32.2579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 96.52 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e71ff36-c277-4bff-b4c2-3e18802a7d1c")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -18075,6 +18405,85 @@
 			(project "cnfx-pm-18650-5v-1"
 				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c3ad2ae-306c-4634-84e6-fe707b41b0e8")
+		(property "Reference" "TP8"
+			(at 146.304 28.448 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 151.13 32.2579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 153.67 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed18485f-3e54-4969-9183-2098498d6887")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -22937,6 +23346,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 218.44 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee659bfd-efcd-4a82-98c9-1e0a0f48ad00")
+		(property "Reference" "TP10"
+			(at 214.122 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 216.4079 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 218.44 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee81a09d-53f7-4c93-8d32-a489d8324743")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 218.44 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef3ab92b-e318-4a61-bc75-736ddfc64f56")
+		(property "Reference" "TP11"
+			(at 214.122 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 216.4079 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 218.44 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52ba7669-3f69-4925-91f9-a2cfa7652eb2")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 63.5 172.72 0)
 		(mirror x)
@@ -23603,6 +24170,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 229.87 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fbbd3c50-ede0-46ce-a87c-33235df8b934")
+		(property "Reference" "TP7"
+			(at 227.584 25.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 232.41 29.7179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 234.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ed445c5-d8bc-4237-aad1-753caddf2a70")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 177.8 0)
 		(unit 1)
@@ -23676,129 +24322,6 @@
 			(project "cnfx-pm-18650-5v-1"
 				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 123.19 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe0d9e5d-0b6c-4696-b5e2-9c8ebc995265")
-		(property "Reference" "TP7"
-			(at 120.904 94.996 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 125.73 98.2979 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GLCS:TestPoint_Keystone_5015_Micro_Mini"
-			(at 128.27 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 123.19 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "X"
-			(at 123.19 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C2906768"
-			(at 123.19 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 123.19 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "5015"
-			(at 123.19 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af8ad93f-3078-4b81-9000-039d15abc02a")
-		)
-		(instances
-			(project "cnfx-pm-18650-5v-1"
-				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
