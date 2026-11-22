@@ -15776,7 +15776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "120k"
 			(at 219.71 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15787,7 +15787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.282 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -15831,7 +15831,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25794"
+		(property "JLCPCB Part #" "C25808"
 			(at 226.06 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15853,7 +15853,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF5102TCE"
+		(property "Manufacturer Part Number" "0603WAF1203T5E"
 			(at 226.06 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17735,10 +17735,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6979bf7c-8fc3-468b-b09f-595271a62cf1")
 		(property "Reference" "U2"
-			(at 215.9 24.13 0)
+			(at 215.9 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17747,8 +17746,8 @@
 				)
 			)
 		)
-		(property "Value" "TPS61088Q1"
-			(at 215.9 26.67 0)
+		(property "Value" "TPS61088"
+			(at 215.9 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
