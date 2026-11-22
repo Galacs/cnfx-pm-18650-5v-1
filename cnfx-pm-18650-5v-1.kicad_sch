@@ -14381,7 +14381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 67.945 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -23776,7 +23776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 83.185 179.07 0)
 			(hide yes)
 			(show_name no)
