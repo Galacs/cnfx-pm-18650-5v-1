@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "987137e1-b7ba-4f38-a4bf-97400bc54943")
 	(paper "A4")
+	(title_block
+		(title "CNFX 18650 5V 1")
+		(date "2026-11-22")
+		(rev "01")
+		(company "Valrobotik")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:BQ297xy"
 			(exclude_from_sim no)
