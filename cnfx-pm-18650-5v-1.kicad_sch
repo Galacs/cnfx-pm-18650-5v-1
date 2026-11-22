@@ -2962,7 +2962,7 @@
 		(uuid "8d8ed2a2-430d-480d-8dab-b5e072871ee2")
 	)
 	(junction
-		(at 142.24 49.53)
+		(at 149.86 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0421b306-eb3a-4557-9138-469f7721ff97")
@@ -2974,16 +2974,22 @@
 		(uuid "0ec54ecb-3a03-404c-b19a-d5e66077056d")
 	)
 	(junction
-		(at 147.32 59.69)
+		(at 143.51 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10b80241-b385-4acd-b81e-cd51c8b92e0f")
+	)
+	(junction
+		(at 154.94 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "172835cc-329d-4627-b963-58e004dadf22")
 	)
 	(junction
-		(at 133.35 59.69)
+		(at 128.27 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1c44d4be-d3bd-4cae-baa1-3391f7b2f48e")
+		(uuid "1d4aca18-10e2-4087-ae11-5e5b7a1bec55")
 	)
 	(junction
 		(at 55.88 59.69)
@@ -2992,7 +2998,7 @@
 		(uuid "4813c0ad-1f5c-44bc-939c-8cd705fbc255")
 	)
 	(junction
-		(at 152.4 49.53)
+		(at 160.02 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b94de73-ca00-4205-8c6e-00f391dfd7c0")
@@ -3002,6 +3008,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ede2093-80d1-410c-a243-05f0d160fc83")
+	)
+	(junction
+		(at 121.92 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "608b384c-1de0-48e4-872b-a1e3a72eb387")
 	)
 	(junction
 		(at 50.8 57.15)
@@ -3016,7 +3028,7 @@
 		(uuid "74691762-7521-40b4-aba7-5db443e8520c")
 	)
 	(junction
-		(at 68.58 49.53)
+		(at 71.12 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "798ef516-3229-481b-a443-afc7dd6654c5")
@@ -3034,7 +3046,7 @@
 		(uuid "7e3dc143-acd2-437a-871b-c9076b1ecd24")
 	)
 	(junction
-		(at 147.32 49.53)
+		(at 154.94 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "874621e9-a118-4062-8f03-2a23bcd3784a")
@@ -3046,13 +3058,19 @@
 		(uuid "94473ced-25bc-45cf-b2f3-8e0e7a6f8ed1")
 	)
 	(junction
-		(at 152.4 59.69)
+		(at 137.16 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "999ff8c9-0d58-4cee-a446-79e4733122c5")
+	)
+	(junction
+		(at 160.02 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad414c2b-0014-4d48-b3cf-22ebc376530b")
 	)
 	(junction
-		(at 138.43 69.85)
+		(at 143.51 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e169a489-fefc-4490-9ca2-9d8512e0f6cb")
@@ -3068,12 +3086,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5d61448-44b5-4be9-bace-2910c549ad5f")
-	)
-	(junction
-		(at 129.54 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7229c71-63a6-4d07-a223-3e0e4b674174")
 	)
 	(no_connect
 		(at 40.64 64.77)
@@ -3105,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 68.58) (xy 129.54 69.85)
+			(xy 137.16 68.58) (xy 137.16 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3165,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 69.85) (xy 138.43 69.85)
+			(xy 137.16 69.85) (xy 143.51 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3175,7 +3187,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 48.26) (xy 156.21 49.53)
+			(xy 128.27 63.5) (xy 128.27 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1978cbdf-fc1a-45a2-9bce-e367c380d255")
+	)
+	(wire
+		(pts
+			(xy 163.83 48.26) (xy 163.83 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3275,7 +3297,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 49.53) (xy 147.32 50.8)
+			(xy 154.94 49.53) (xy 154.94 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3325,7 +3347,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 68.58) (xy 138.43 69.85)
+			(xy 137.16 74.93) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eee0b49-3891-43df-a8a5-65495a681c65")
+	)
+	(wire
+		(pts
+			(xy 143.51 68.58) (xy 143.51 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3365,7 +3397,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 49.53) (xy 142.24 50.8)
+			(xy 149.86 49.53) (xy 149.86 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3415,6 +3447,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 59.69) (xy 143.51 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d76e31b-71a6-441c-83c6-a169205afed4")
+	)
+	(wire
+		(pts
 			(xy 101.6 53.34) (xy 80.01 53.34)
 		)
 		(stroke
@@ -3455,7 +3497,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 69.85) (xy 138.43 71.12)
+			(xy 143.51 69.85) (xy 143.51 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3485,7 +3527,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 58.42) (xy 68.58 59.69)
+			(xy 71.12 58.42) (xy 71.12 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3505,7 +3547,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 58.42) (xy 147.32 59.69)
+			(xy 154.94 58.42) (xy 154.94 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3515,7 +3557,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 49.53) (xy 152.4 49.53)
+			(xy 163.83 49.53) (xy 160.02 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3525,7 +3567,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 59.69) (xy 152.4 58.42)
+			(xy 160.02 59.69) (xy 160.02 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3565,7 +3607,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 49.53) (xy 142.24 49.53)
+			(xy 138.43 49.53) (xy 149.86 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3585,7 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 49.53) (xy 99.06 49.53)
+			(xy 55.88 49.53) (xy 71.12 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3605,7 +3647,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 59.69) (xy 152.4 59.69)
+			(xy 71.12 49.53) (xy 99.06 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93122514-7e27-47d3-888d-dd302b85fafc")
+	)
+	(wire
+		(pts
+			(xy 154.94 59.69) (xy 160.02 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3632,6 +3684,16 @@
 			(type default)
 		)
 		(uuid "9afd4bd1-6e81-4d01-8795-18bef43d3ec5")
+	)
+	(wire
+		(pts
+			(xy 120.65 74.93) (xy 128.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b442145-c65d-4a61-bf69-e94e2825376e")
 	)
 	(wire
 		(pts
@@ -3675,7 +3737,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 59.69) (xy 147.32 59.69)
+			(xy 149.86 59.69) (xy 154.94 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3685,7 +3747,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 49.53) (xy 147.32 49.53)
+			(xy 128.27 74.93) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2675235-eaed-42ba-8a39-b3ea6f7ef3be")
+	)
+	(wire
+		(pts
+			(xy 149.86 49.53) (xy 154.94 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3705,7 +3777,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 59.69) (xy 152.4 60.96)
+			(xy 160.02 59.69) (xy 160.02 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3735,6 +3807,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 62.23) (xy 121.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e33a55-1765-4619-b43d-0991634d512a")
+	)
+	(wire
+		(pts
 			(xy 88.9 55.88) (xy 101.6 55.88)
 		)
 		(stroke
@@ -3745,7 +3827,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 58.42) (xy 133.35 59.69)
+			(xy 144.78 58.42) (xy 144.78 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3762,6 +3844,16 @@
 			(type default)
 		)
 		(uuid "c8cecf64-2319-4889-b8c5-7b72e451dcb8")
+	)
+	(wire
+		(pts
+			(xy 138.43 76.2) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0e6a77-6513-4c39-b6cb-ecce37ce0766")
 	)
 	(wire
 		(pts
@@ -3785,17 +3877,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 59.69) (xy 129.54 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d01fbcfe-99c3-4e29-9607-04d319592362")
-	)
-	(wire
-		(pts
-			(xy 129.54 60.96) (xy 129.54 59.69)
+			(xy 137.16 60.96) (xy 137.16 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3805,7 +3887,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 49.53) (xy 152.4 50.8)
+			(xy 160.02 49.53) (xy 160.02 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3835,7 +3917,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 58.42) (xy 142.24 59.69)
+			(xy 149.86 58.42) (xy 149.86 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3855,7 +3937,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 49.53) (xy 152.4 49.53)
+			(xy 154.94 49.53) (xy 160.02 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3865,7 +3947,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 49.53) (xy 68.58 50.8)
+			(xy 128.27 74.93) (xy 128.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc375690-8e4d-4d1e-8d22-e9155a1afb15")
+	)
+	(wire
+		(pts
+			(xy 71.12 49.53) (xy 71.12 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3905,13 +3997,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 59.69) (xy 138.43 59.69)
+			(xy 120.65 59.69) (xy 143.51 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed5bd148-487a-486c-b24b-1c7ab36ec8e3")
+		(uuid "f18eb747-656a-40e7-9672-93cdda8fb9c4")
 	)
 	(wire
 		(pts
@@ -3935,7 +4027,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 59.69) (xy 138.43 60.96)
+			(xy 143.51 59.69) (xy 143.51 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4632,7 +4724,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 147.32 54.61 0)
+		(at 154.94 54.61 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4643,7 +4735,7 @@
 		(dnp no)
 		(uuid "2243a6db-72f3-4c1d-a2cc-0765d8fa0a0b")
 		(property "Reference" "C15"
-			(at 148.336 44.958 0)
+			(at 155.956 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4654,7 +4746,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 148.336 47.498 0)
+			(at 155.956 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4665,7 +4757,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 146.3548 58.42 0)
+			(at 153.9748 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4676,7 +4768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 54.61 0)
+			(at 154.94 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,7 +4779,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 147.32 54.61 0)
+			(at 154.94 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,7 +4790,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 147.32 54.61 0)
+			(at 154.94 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,7 +4801,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
-			(at 147.32 54.61 0)
+			(at 154.94 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +4812,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 147.32 54.61 0)
+			(at 154.94 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4823,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C19702"
-			(at 147.32 54.61 0)
+			(at 154.94 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +4834,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 147.32 54.61 0)
+			(at 154.94 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,7 +4845,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 147.32 54.61 0)
+			(at 154.94 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5020,7 +5112,7 @@
 		(dnp no)
 		(uuid "31ddc9a1-4f9e-45bb-b3c7-19e06fb263f1")
 		(property "Reference" "R24"
-			(at 76.708 70.866 0)
+			(at 76.962 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5030,7 +5122,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 76.708 68.326 0)
+			(at 76.962 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5132,8 +5224,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 156.21 48.26 0)
+		(lib_id "Device:R")
+		(at 128.27 67.31 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5141,30 +5234,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3f7c154c-aaca-4359-a7e6-05b6c1275911")
-		(property "Reference" "#PWR058"
-			(at 156.21 52.07 0)
-			(hide yes)
+		(uuid "3b7d691a-642f-4aff-aab1-1f5115931f32")
+		(property "Reference" "R18"
+			(at 133.604 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "+SYS"
-			(at 156.464 44.196 0)
+		(property "Value" "10k"
+			(at 133.604 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 48.26 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 126.492 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5175,7 +5269,131 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 48.26 0)
+			(at 128.27 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 128.27 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 128.27 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 128.27 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 128.27 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7b3381d9-053c-4f0a-97b9-c18c71ab4e3b")
+		)
+		(pin "1"
+			(uuid "736ea213-3acf-4d22-9da3-f6930016834a")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 163.83 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f7c154c-aaca-4359-a7e6-05b6c1275911")
+		(property "Reference" "#PWR058"
+			(at 163.83 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+SYS"
+			(at 164.084 44.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5186,7 +5404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 156.21 48.26 0)
+			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5578,7 +5796,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 138.43 66.04 0)
+		(at 143.51 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5588,7 +5806,7 @@
 		(dnp no)
 		(uuid "471b7946-7968-4d14-9d56-3de607e84789")
 		(property "Reference" "BT1"
-			(at 141.732 64.262 0)
+			(at 146.812 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5599,7 +5817,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 142.24 65.4684 0)
+			(at 147.32 65.4684 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5611,7 +5829,7 @@
 			)
 		)
 		(property "Footprint" "GLCS:BatteryHolder_MYOUNG_BH-18650-B1BA002"
-			(at 138.43 64.516 90)
+			(at 143.51 64.516 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5622,7 +5840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 64.516 90)
+			(at 143.51 64.516 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5633,7 +5851,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 138.43 66.04 0)
+			(at 143.51 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6250,7 +6468,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 133.35 58.42 0)
+		(at 144.78 58.42 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6261,7 +6479,7 @@
 		(dnp no)
 		(uuid "64975711-72b9-4db5-bc58-48a679b89e95")
 		(property "Reference" "#PWR057"
-			(at 133.35 62.23 0)
+			(at 144.78 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6272,7 +6490,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 127.762 56.134 0)
+			(at 140.462 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6282,7 +6500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 58.42 0)
+			(at 144.78 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6293,7 +6511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 58.42 0)
+			(at 144.78 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6304,7 +6522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 133.35 58.42 0)
+			(at 144.78 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6565,7 +6783,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 60.96 0)
+		(at 160.02 60.96 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6577,7 +6795,7 @@
 		(fields_autoplaced yes)
 		(uuid "71baa66f-cbe5-41d1-8265-c654e38dd00d")
 		(property "Reference" "#PWR05"
-			(at 152.4 67.31 0)
+			(at 160.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,7 +6806,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 66.04 0)
+			(at 160.02 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6599,7 +6817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 60.96 0)
+			(at 160.02 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,7 +6828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 60.96 0)
+			(at 160.02 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6621,7 +6839,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 60.96 0)
+			(at 160.02 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6717,6 +6935,85 @@
 			(project "cnfx-pm-18650-5v-1"
 				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ba18ac0-529b-4660-874e-9cfa6a0f2a08")
+		(property "Reference" "#PWR012"
+			(at 138.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2b594d1-f22c-44a8-9ba7-f6aba4e6ec18")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6884,7 +7181,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 71.12 0)
+		(at 143.51 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6896,7 +7193,7 @@
 		(fields_autoplaced yes)
 		(uuid "8dd43a41-642c-41a5-9bdd-5b488753908a")
 		(property "Reference" "#PWR01"
-			(at 138.43 77.47 0)
+			(at 143.51 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6907,7 +7204,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 76.2 0)
+			(at 143.51 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6918,7 +7215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 71.12 0)
+			(at 143.51 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6929,7 +7226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 71.12 0)
+			(at 143.51 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,7 +7237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 71.12 0)
+			(at 143.51 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6964,7 +7261,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 54.61 0)
+		(at 149.86 54.61 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6975,7 +7272,7 @@
 		(dnp no)
 		(uuid "9a09b03f-be8b-4d59-883d-6ae0d69b945e")
 		(property "Reference" "C14"
-			(at 143.256 44.958 0)
+			(at 150.876 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6986,7 +7283,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 143.256 47.498 0)
+			(at 150.876 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6997,7 +7294,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 141.2748 58.42 0)
+			(at 148.8948 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7008,7 +7305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7019,7 +7316,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7030,7 +7327,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 142.24 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7041,7 +7338,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
-			(at 142.24 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7052,7 +7349,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 142.24 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7063,7 +7360,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C19702"
-			(at 142.24 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7074,7 +7371,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 142.24 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7085,7 +7382,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 142.24 54.61 0)
+			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7111,9 +7408,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 152.4 54.61 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 133.35 74.93 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7121,31 +7418,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9e89646f-4cc6-4251-a2a8-03ac9489df08")
-		(property "Reference" "C16"
-			(at 153.416 44.958 0)
+		(uuid "9affbc72-51d0-4da2-9cb9-b696e16b23d7")
+		(property "Reference" "R19"
+			(at 133.35 72.898 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 153.416 47.498 0)
+		(property "Value" "10k"
+			(at 133.35 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 151.4348 58.42 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 133.35 76.708 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7156,7 +7451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 54.61 0)
+			(at 133.35 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7166,30 +7461,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 152.4 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 152.4 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
-			(at 152.4 54.61 0)
+		(property "Description" "Resistor"
+			(at 133.35 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7200,7 +7473,155 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 152.4 54.61 0)
+			(at 133.35 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 133.35 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 133.35 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 133.35 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "660c9e3b-f76a-4ecc-afd4-01c62b02956a")
+		)
+		(pin "1"
+			(uuid "2e51ab0e-afc2-4c26-b53d-75ad1ee9a0ad")
+		)
+		(instances
+			(project "cnfx-pm-18650-5v-1"
+				(path "/987137e1-b7ba-4f38-a4bf-97400bc54943"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 54.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e89646f-4cc6-4251-a2a8-03ac9489df08")
+		(property "Reference" "C16"
+			(at 161.036 44.958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 161.036 47.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 159.0548 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 160.02 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 160.02 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 160.02 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7211,7 +7632,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C19702"
-			(at 152.4 54.61 0)
+			(at 160.02 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7222,7 +7643,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 152.4 54.61 0)
+			(at 160.02 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7233,7 +7654,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 152.4 54.61 0)
+			(at 160.02 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7531,7 +7952,7 @@
 		(dnp no)
 		(uuid "c6342e84-776e-48bc-81cb-6538c0d7f644")
 		(property "Reference" "C11"
-			(at 123.19 61.468 0)
+			(at 122.428 67.818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7542,7 +7963,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 123.19 64.008 0)
+			(at 122.428 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7668,7 +8089,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 54.61 0)
+		(at 71.12 54.61 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7679,7 +8100,7 @@
 		(dnp no)
 		(uuid "d0819c8f-9a36-4095-a883-6450ee196e05")
 		(property "Reference" "C4"
-			(at 69.85 44.704 0)
+			(at 72.39 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7690,7 +8111,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 69.85 47.244 0)
+			(at 72.39 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7701,7 +8122,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 69.5452 50.8 0)
+			(at 72.0852 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7712,7 +8133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 54.61 0)
+			(at 71.12 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7723,7 +8144,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 54.61 0)
+			(at 71.12 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7734,7 +8155,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 68.58 54.61 0)
+			(at 71.12 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7745,7 +8166,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
-			(at 68.58 54.61 0)
+			(at 71.12 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7756,7 +8177,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 68.58 54.61 0)
+			(at 71.12 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7767,7 +8188,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C52923"
-			(at 68.58 54.61 0)
+			(at 71.12 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7778,7 +8199,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 68.58 54.61 0)
+			(at 71.12 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7789,7 +8210,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 68.58 54.61 0)
+			(at 71.12 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7816,7 +8237,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 129.54 64.77 0)
+		(at 137.16 64.77 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7827,7 +8248,7 @@
 		(dnp no)
 		(uuid "d2bdf75c-5c1b-4caf-92d9-c64a388f5d96")
 		(property "Reference" "C10"
-			(at 135.636 64.008 0)
+			(at 135.89 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7838,7 +8259,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 135.636 66.548 0)
+			(at 135.89 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7849,7 +8270,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 128.5748 68.58 0)
+			(at 136.1948 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7860,7 +8281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 64.77 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7871,7 +8292,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 129.54 64.77 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7882,7 +8303,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 129.54 64.77 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7893,7 +8314,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
-			(at 129.54 64.77 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7904,7 +8325,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 129.54 64.77 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7915,7 +8336,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C19702"
-			(at 129.54 64.77 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7926,7 +8347,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 129.54 64.77 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7937,7 +8358,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 129.54 64.77 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8044,7 +8465,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 59.69 0)
+		(at 71.12 59.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8055,7 +8476,7 @@
 		(dnp no)
 		(uuid "e771eb74-d015-4b88-b346-1578aa5ce6a3")
 		(property "Reference" "#PWR014"
-			(at 68.58 66.04 0)
+			(at 71.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8066,7 +8487,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.136 61.468 0)
+			(at 74.676 61.468 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,7 +8498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 59.69 0)
+			(at 71.12 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8088,7 +8509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 59.69 0)
+			(at 71.12 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8099,7 +8520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 59.69 0)
+			(at 71.12 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
