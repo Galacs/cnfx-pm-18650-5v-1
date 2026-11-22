@@ -5801,7 +5801,7 @@
 		)
 		(uuid "8d8ed2a2-430d-480d-8dab-b5e072871ee2")
 	)
-	(text "TPS61088-Q1\n4A 5V BOOST"
+	(text "TPS61088\n4A 5V BOOST"
 		(exclude_from_sim no)
 		(at 261.366 67.564 0)
 		(effects
