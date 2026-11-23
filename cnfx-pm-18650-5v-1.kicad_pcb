@@ -7280,7 +7280,7 @@
 	(footprint "MountingHole:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "5b50b218-b28a-4df8-89fa-bda714b13539")
-		(at 67.605 159.125)
+		(at 139 70)
 		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
 		(tags "mounting")
 		(property "Reference" "H7"
@@ -7400,13 +7400,12 @@
 			)
 			(polygon
 				(pts
-					(xy 68.305 159.125) (xy 68.284659 158.957479) (xy 68.224819 158.799694) (xy 68.128958 158.660814)
-					(xy 68.002645 158.548911) (xy 67.853223 158.470489) (xy 67.689376 158.430104) (xy 67.520624 158.430104)
-					(xy 67.356777 158.470489) (xy 67.207355 158.548911) (xy 67.081042 158.660814) (xy 66.985181 158.799694)
-					(xy 66.925341 158.957479) (xy 66.905 159.125) (xy 66.925341 159.292521) (xy 66.985181 159.450306)
-					(xy 67.081042 159.589186) (xy 67.207355 159.701089) (xy 67.356777 159.779511) (xy 67.520624 159.819896)
-					(xy 67.689376 159.819896) (xy 67.853223 159.779511) (xy 68.002645 159.701089) (xy 68.128958 159.589186)
-					(xy 68.224819 159.450306) (xy 68.284659 159.292521)
+					(xy 139.7 70) (xy 139.679659 69.832479) (xy 139.619819 69.674694) (xy 139.523958 69.535814) (xy 139.397645 69.423911)
+					(xy 139.248223 69.345489) (xy 139.084376 69.305104) (xy 138.915624 69.305104) (xy 138.751777 69.345489)
+					(xy 138.602355 69.423911) (xy 138.476042 69.535814) (xy 138.380181 69.674694) (xy 138.320341 69.832479)
+					(xy 138.3 70) (xy 138.320341 70.167521) (xy 138.380181 70.325306) (xy 138.476042 70.464186) (xy 138.602355 70.576089)
+					(xy 138.751777 70.654511) (xy 138.915624 70.694896) (xy 139.084376 70.694896) (xy 139.248223 70.654511)
+					(xy 139.397645 70.576089) (xy 139.523958 70.464186) (xy 139.619819 70.325306) (xy 139.679659 70.167521)
 				)
 			)
 		)
@@ -8614,7 +8613,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "5f470a9c-c52b-4c97-8040-435f091245c1")
-		(at 56.465 173.195)
+		(at 142 95)
 		(descr "Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID2"
@@ -13834,7 +13833,7 @@
 	(footprint "MountingHole:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "9c940e43-142f-48c0-a1b2-82f7f630bba4")
-		(at 67.605 156.675)
+		(at 221 98)
 		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
 		(tags "mounting")
 		(property "Reference" "H6"
@@ -13954,13 +13953,12 @@
 			)
 			(polygon
 				(pts
-					(xy 68.305 156.675) (xy 68.284659 156.507479) (xy 68.224819 156.349694) (xy 68.128958 156.210814)
-					(xy 68.002645 156.098911) (xy 67.853223 156.020489) (xy 67.689376 155.980104) (xy 67.520624 155.980104)
-					(xy 67.356777 156.020489) (xy 67.207355 156.098911) (xy 67.081042 156.210814) (xy 66.985181 156.349694)
-					(xy 66.925341 156.507479) (xy 66.905 156.675) (xy 66.925341 156.842521) (xy 66.985181 157.000306)
-					(xy 67.081042 157.139186) (xy 67.207355 157.251089) (xy 67.356777 157.329511) (xy 67.520624 157.369896)
-					(xy 67.689376 157.369896) (xy 67.853223 157.329511) (xy 68.002645 157.251089) (xy 68.128958 157.139186)
-					(xy 68.224819 157.000306) (xy 68.284659 156.842521)
+					(xy 221.7 98) (xy 221.679659 97.832479) (xy 221.619819 97.674694) (xy 221.523958 97.535814) (xy 221.397645 97.423911)
+					(xy 221.248223 97.345489) (xy 221.084376 97.305104) (xy 220.915624 97.305104) (xy 220.751777 97.345489)
+					(xy 220.602355 97.423911) (xy 220.476042 97.535814) (xy 220.380181 97.674694) (xy 220.320341 97.832479)
+					(xy 220.3 98) (xy 220.320341 98.167521) (xy 220.380181 98.325306) (xy 220.476042 98.464186) (xy 220.602355 98.576089)
+					(xy 220.751777 98.654511) (xy 220.915624 98.694896) (xy 221.084376 98.694896) (xy 221.248223 98.654511)
+					(xy 221.397645 98.576089) (xy 221.523958 98.464186) (xy 221.619819 98.325306) (xy 221.679659 98.167521)
 				)
 			)
 		)
@@ -14415,7 +14413,7 @@
 	(footprint "MountingHole:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "a7c7cb66-11ad-4cf7-835c-10aa28d968e8")
-		(at 67.605 154.225)
+		(at 141 98)
 		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
 		(tags "mounting")
 		(property "Reference" "H5"
@@ -14535,13 +14533,12 @@
 			)
 			(polygon
 				(pts
-					(xy 68.305 154.225) (xy 68.284659 154.057479) (xy 68.224819 153.899694) (xy 68.128958 153.760814)
-					(xy 68.002645 153.648911) (xy 67.853223 153.570489) (xy 67.689376 153.530104) (xy 67.520624 153.530104)
-					(xy 67.356777 153.570489) (xy 67.207355 153.648911) (xy 67.081042 153.760814) (xy 66.985181 153.899694)
-					(xy 66.925341 154.057479) (xy 66.905 154.225) (xy 66.925341 154.392521) (xy 66.985181 154.550306)
-					(xy 67.081042 154.689186) (xy 67.207355 154.801089) (xy 67.356777 154.879511) (xy 67.520624 154.919896)
-					(xy 67.689376 154.919896) (xy 67.853223 154.879511) (xy 68.002645 154.801089) (xy 68.128958 154.689186)
-					(xy 68.224819 154.550306) (xy 68.284659 154.392521)
+					(xy 141.7 98) (xy 141.679659 97.832479) (xy 141.619819 97.674694) (xy 141.523958 97.535814) (xy 141.397645 97.423911)
+					(xy 141.248223 97.345489) (xy 141.084376 97.305104) (xy 140.915624 97.305104) (xy 140.751777 97.345489)
+					(xy 140.602355 97.423911) (xy 140.476042 97.535814) (xy 140.380181 97.674694) (xy 140.320341 97.832479)
+					(xy 140.3 98) (xy 140.320341 98.167521) (xy 140.380181 98.325306) (xy 140.476042 98.464186) (xy 140.602355 98.576089)
+					(xy 140.751777 98.654511) (xy 140.915624 98.694896) (xy 141.084376 98.694896) (xy 141.248223 98.654511)
+					(xy 141.397645 98.576089) (xy 141.523958 98.464186) (xy 141.619819 98.325306) (xy 141.679659 98.167521)
 				)
 			)
 		)
@@ -20784,7 +20781,7 @@
 	(footprint "Button_Switch_SMD:SW_SPDT_Shouhan_MSK12C02"
 		(layer "F.Cu")
 		(uuid "d5bd15c5-173e-4e44-aef5-296224c1deac")
-		(at 36 131.25)
+		(at 187.5 70.75 180)
 		(descr "SPDT Surface Mount Slide Switch, right-angle, https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_SHOU-HAN-MSK12C02_C431540.pdf")
 		(tags "MSK-12C02 MSK12C02 MSK12C02-HB")
 		(property "Reference" "SW1"
@@ -20810,7 +20807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20823,7 +20820,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20836,7 +20833,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20849,7 +20846,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C431540"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20862,7 +20859,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20875,7 +20872,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MSK12C02"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20899,24 +20896,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -3.45 -0.4)
-			(end -3.45 0.4)
+			(start 3.45 -0.4)
+			(end 3.45 0.4)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "82b5e65d-b998-4e18-9171-6c0c7c2e93f2")
-		)
-		(fp_line
-			(start -1.6 -1.5)
-			(end 0.1 -1.5)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "5f2f6016-834a-4d36-8834-d76a8edd082d")
+			(uuid "79653529-78b0-4b4d-ba1c-237d81a45c08")
 		)
 		(fp_line
 			(start 1.4 -1.5)
@@ -20929,124 +20916,24 @@
 			(uuid "c84a48f7-2111-4c08-ae76-bdb5eb9e9dc8")
 		)
 		(fp_line
-			(start 3.45 -0.4)
-			(end 3.45 0.4)
+			(start -1.6 -1.5)
+			(end 0.1 -1.5)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "79653529-78b0-4b4d-ba1c-237d81a45c08")
+			(uuid "5f2f6016-834a-4d36-8834-d76a8edd082d")
 		)
 		(fp_line
-			(start -4.45 -1.7)
-			(end -4.45 1.7)
+			(start -3.45 -0.4)
+			(end -3.45 0.4)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type default)
 			)
-			(layer "F.CrtYd")
-			(uuid "8ab5f485-c5f2-45e7-ad22-0fb9453c6608")
-		)
-		(fp_line
-			(start -4.45 -1.7)
-			(end -2.8 -1.7)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "9224b1de-159f-492c-b381-b3c8f875cda8")
-		)
-		(fp_line
-			(start -4.45 1.7)
-			(end -1.7 1.7)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "a6fc6962-e5fe-46dc-ace2-4df59ac2b9e7")
-		)
-		(fp_line
-			(start -2.8 -2.85)
-			(end 2.8 -2.85)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "bbf6f419-b859-48bd-94d5-e902b223d70a")
-		)
-		(fp_line
-			(start -2.8 -1.7)
-			(end -2.8 -2.85)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "a5170864-17e9-4fa5-9f32-a6f2ccd1d818")
-		)
-		(fp_line
-			(start -1.7 1.7)
-			(end -1.7 3.1)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "c1311501-409c-4de0-aff8-1b7c296cfee4")
-		)
-		(fp_line
-			(start 1.7 1.7)
-			(end 4.45 1.7)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "33cc64d9-e7bd-47ba-970f-825c95199f44")
-		)
-		(fp_line
-			(start 1.7 3.1)
-			(end -1.7 3.1)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "21be8697-9007-4126-93b5-7e504a267544")
-		)
-		(fp_line
-			(start 1.7 3.1)
-			(end 1.7 1.7)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "ae724d7e-0901-4c49-aa01-63e2ad8151ea")
-		)
-		(fp_line
-			(start 2.8 -1.7)
-			(end 2.8 -2.85)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "a10d1239-1289-462f-8463-572bb8572c9d")
-		)
-		(fp_line
-			(start 4.45 -1.7)
-			(end 2.8 -1.7)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "805bae3a-ad08-4d3a-9469-19bd053271de")
+			(layer "F.SilkS")
+			(uuid "82b5e65d-b998-4e18-9171-6c0c7c2e93f2")
 		)
 		(fp_line
 			(start 4.45 1.7)
@@ -21059,14 +20946,124 @@
 			(uuid "fe2e5bf9-2f06-4eac-8a53-090c6488ad81")
 		)
 		(fp_line
-			(start 0.15 1.4)
-			(end 0.15 2.85)
+			(start 4.45 -1.7)
+			(end 2.8 -1.7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "805bae3a-ad08-4d3a-9469-19bd053271de")
+		)
+		(fp_line
+			(start 2.8 -1.7)
+			(end 2.8 -2.85)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "a10d1239-1289-462f-8463-572bb8572c9d")
+		)
+		(fp_line
+			(start 1.7 3.1)
+			(end 1.7 1.7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "ae724d7e-0901-4c49-aa01-63e2ad8151ea")
+		)
+		(fp_line
+			(start 1.7 3.1)
+			(end -1.7 3.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "21be8697-9007-4126-93b5-7e504a267544")
+		)
+		(fp_line
+			(start 1.7 1.7)
+			(end 4.45 1.7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "33cc64d9-e7bd-47ba-970f-825c95199f44")
+		)
+		(fp_line
+			(start -1.7 1.7)
+			(end -1.7 3.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "c1311501-409c-4de0-aff8-1b7c296cfee4")
+		)
+		(fp_line
+			(start -2.8 -1.7)
+			(end -2.8 -2.85)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "a5170864-17e9-4fa5-9f32-a6f2ccd1d818")
+		)
+		(fp_line
+			(start -2.8 -2.85)
+			(end 2.8 -2.85)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "bbf6f419-b859-48bd-94d5-e902b223d70a")
+		)
+		(fp_line
+			(start -4.45 1.7)
+			(end -1.7 1.7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "a6fc6962-e5fe-46dc-ace2-4df59ac2b9e7")
+		)
+		(fp_line
+			(start -4.45 -1.7)
+			(end -2.8 -1.7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "9224b1de-159f-492c-b381-b3c8f875cda8")
+		)
+		(fp_line
+			(start -4.45 -1.7)
+			(end -4.45 1.7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "8ab5f485-c5f2-45e7-ad22-0fb9453c6608")
+		)
+		(fp_line
+			(start 1.45 1.4)
+			(end 1.45 2.85)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "f37a7a15-ffdd-4e4d-b535-72c8818a0f1e")
+			(uuid "afe69648-36e4-4715-b2b9-527b9288c109")
 		)
 		(fp_line
 			(start 0.15 2.85)
@@ -21079,14 +21076,14 @@
 			(uuid "98f99c3a-b47f-4393-a33e-ac1886e540c5")
 		)
 		(fp_line
-			(start 1.45 1.4)
-			(end 1.45 2.85)
+			(start 0.15 1.4)
+			(end 0.15 2.85)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "afe69648-36e4-4715-b2b9-527b9288c109")
+			(uuid "f37a7a15-ffdd-4e4d-b535-72c8818a0f1e")
 		)
 		(fp_rect
 			(start -3.35 -1.4)
@@ -21111,21 +21108,21 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at -1.5 0)
+			(at -1.5 0 180)
 			(size 0.85 0.85)
 			(drill 0.85)
 			(layers "*.Mask")
 			(uuid "409e9e83-42d5-494c-bbb7-b7d73a91eb01")
 		)
 		(pad "" np_thru_hole circle
-			(at 1.5 0)
+			(at 1.5 0 180)
 			(size 0.85 0.85)
 			(drill 0.85)
 			(layers "*.Mask")
 			(uuid "458966e5-1dbf-46f5-9491-26e403728e12")
 		)
 		(pad "1" smd roundrect
-			(at -2.25 -1.95)
+			(at -2.25 -1.95 180)
 			(size 0.6 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21135,7 +21132,7 @@
 			(uuid "4c2708a6-1d99-4ea2-8337-3a4afbbb56d9")
 		)
 		(pad "2" smd roundrect
-			(at 0.75 -1.95)
+			(at 0.75 -1.95 180)
 			(size 0.6 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21145,7 +21142,7 @@
 			(uuid "be1157e8-8632-4bf6-9eeb-af51ec8e1d77")
 		)
 		(pad "3" smd roundrect
-			(at 2.25 -1.95)
+			(at 2.25 -1.95 180)
 			(size 0.6 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21155,7 +21152,7 @@
 			(uuid "0110a8ba-ee9f-4a77-81fd-8501f4d0eb5d")
 		)
 		(pad "SH" smd roundrect
-			(at -3.675 -1.1)
+			(at -3.675 -1.1 180)
 			(size 1.05 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21164,7 +21161,7 @@
 			(uuid "6c902d40-275e-48b9-ac7d-f6b10c013119")
 		)
 		(pad "SH" smd roundrect
-			(at -3.675 1.1)
+			(at -3.675 1.1 180)
 			(size 1.05 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21173,7 +21170,7 @@
 			(uuid "36763d37-74ea-44fb-8e7b-9b0cd5c19433")
 		)
 		(pad "SH" smd roundrect
-			(at 3.675 -1.1)
+			(at 3.675 -1.1 180)
 			(size 1.05 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21182,7 +21179,7 @@
 			(uuid "a6f81f68-837e-4047-9c40-a2638c50cae8")
 		)
 		(pad "SH" smd roundrect
-			(at 3.675 1.1)
+			(at 3.675 1.1 180)
 			(size 1.05 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -23638,7 +23635,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "f1302f2a-92dc-46d3-a3c7-1e752c2f3508")
-		(at 56.465 169.645)
+		(at 144 72)
 		(descr "Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID1"
@@ -24676,7 +24673,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "f9a358cd-50ae-4d70-9013-addddfb893da")
-		(at 56.465 176.745)
+		(at 217 81)
 		(descr "Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID3"
