@@ -2352,7 +2352,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "NCD0805R1"
+		(property "JLCPCB Part #" "C84256"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
