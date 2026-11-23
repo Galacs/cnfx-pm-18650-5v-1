@@ -557,16 +557,23 @@
         "wire_width": 6
       },
       {
+        "name": "BGND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "name": "GND",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "PWR",
         "pcb_color": "rgb(255, 3, 17)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       }
@@ -584,6 +591,10 @@
       {
         "netclass": "PWR",
         "pattern": "+*"
+      },
+      {
+        "netclass": "BGND",
+        "pattern": "GNDREF"
       }
     ]
   },
